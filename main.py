@@ -11,12 +11,12 @@ def tts_request(
     text,
     output_path
 ):
-    appid = "4001863206"
-    access_token= "sfxRn5j3t9vSiXAL9CgHcr2MJEIlWF1D"
-    cluster = "volcano_icl"
-    uid = "ark-experience-voice-clone-2109077295"
+    appid = 
+    access_token= 
+    cluster = 
+    uid = 
     host = "openspeech.bytedance.com"
-    voice_type = "S_X976hfIy1"
+    voice_type = 
     api_url = f"https://{host}/api/v1/tts"
     header = {"Authorization": f"Bearer;{access_token}"}
     request_json = {
@@ -102,8 +102,8 @@ def parse_script_file(file_path,output_dir):
     # merge_mp3_by_timestamps(output_dir,file_path)
     
 # 主函数
-file_path = r"C:\低代码视频剪辑素材\配音\讲解词.txt"
-output_dir = r"C:\低代码视频剪辑素材\配音\female"
+file_path = 
+output_dir = 
 # tts_request("阶段一的目标是构建一个支持场景开发的低代码平台。",r"c:\1.mp3")
 # parse_script_file(file_path,output_dir)
 # merge_mp3_by_timestamps(output_dir,file_path)
